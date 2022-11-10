@@ -1,7 +1,6 @@
 # webscraper
-selenium &amp; beautifulsoup webscraper for ebay and kleinanzeigen
-
-
 This is a simple webscraper that is running on heroku.
 
-It scrapes ebay, ebay_sold and kleinanzeigen and posts the result into a postgresql.
+It uses selenium and beautiful soup. It scrapes ebay, ebay sold and kleinanzeigen for analog cameras. 
+
+Then, it posts the result to a postgresql.
