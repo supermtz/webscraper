@@ -320,7 +320,7 @@ def job():
     #df_3.to_excel("D:/Webscraping/daten/" + "kleinanzeigen_analog_spiegelreflexkamera_" + str(heutiges_datum) + "_" + str(current_time) + ".xlsx")
 
     #postgres connection
-    postgres_connection_url = "postgresql://postgres:RKEtii1a18gbD3LjYRRg@containers-us-west-68.railway.app:6363/railway"
+    postgres_connection_url = "XXX"
 
     engine = sqlalchemy.create_engine(postgres_connection_url)
 
@@ -339,10 +339,3 @@ schedule.every(2).hours.do(job)
 while True:
     schedule.run_pending()
     time.sleep(200)
-
-
-#test
-#Write Output to excel file
-#df.to_excel("D:/Webscraping/daten/" + "ebay_analog_spiegelreflexkamera_" + str(heutiges_datum) + "_" + str(current_time) + ".xlsx")
-
-#hallo
